@@ -12,76 +12,78 @@ cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(qr=True)
-ki.loginResult()
+#ki = LINETCR.LINE()
+#ki.login(qr=True)
+#ki.loginResult()
 
-kk = LINETCR.LINE()
-kk.login(qr=True)
-kk.loginResult()
+#kk = LINETCR.LINE()
+#kk.login(qr=True)
+#kk.loginResult()
 
-ks = LINETCR.LINE()
-ks.login(qr=True)
-ks.loginResult()
+#ks = LINETCR.LINE()
+#ks.login(qr=True)
+#ks.loginResult()
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""〘👑1DaffaN3Kalani👑〙
-╔══════════════════════  
-║☁̸҉̸.̸҉ =ȼ๏ʍʍąɲď β๏ţ  ̸҉̸.̸҉̸☁
-╠══════════════════════
-║[Id]
-║[Mid]:
-║[All mid]:
-║[Me]:
-║[List group]: "Melihat list group"
-║[gift]: "fake gift"
-║[Group Id]: "Id Me Group"
-║[TL : "Text"]: "Auto status TL"
-║[Clock :]: "Name Clock"
-║[Up clock]: "Up date Clock"
-║[Name : 'text']: "Name me"
-║[MIC]: "mid"]: "Contact share"
-║[Reject]: " invite"]: "Reject invite"
-║[Massage add: "text"]:
-║[Add confirmasi]:
-║[Comment set : "Text"]:
-║[Comment check]:
-║[Clock: on]: "Clock name on"
-║[Clock: off]: "Clock name off"
-║[Ban]: "Add blacklist"
-║[Unban]: "Dalate blacklist"
-║[Banlist]: "Check blacklist"
-╠════════════
-║〚C͓̳͓O͓̳͓M͓̳͓M͓̳͓A͓̳͓N͓̳͓D͓̳͓ ͓S͓̳͓E͓̳͓T͓̳͓〛
-╠════════════
-║[Contact: on/off]: 
-║[Auto join: on/off]: 
-║[Cancel Invite: 1 on/off]:
-║[Auto share: on/off]:
-║[Auto leave: on/off]: 
-║[Comment: on/off]: 
-║[Auto add: on/off]: 
-║[Auto like: on/off]: 
-╠═══════════════	
-║⟦ϲ̳̳̋ο̳̳̋м̳̳̋м̳̳̋α̳̳̋и̳̳̋∂̳̳̋ ̳̳̋ι̳̳̋и̳̳̋ ̳̳̋g̳̳̋я̳̳̋ο̳̳̋υ̳̳̋ρ̳̳̋⟧
-╠═══════════════
-║[Ban " @Tag]: 
-║[Unban " @Tag]: 
-║[Urlon]: "Open urL"
-║[Urloff]: "Closed urL"
-║[Url]: " Check urL room"
-║[Ginfo]: "~÷~ data room"
-║[Invite: "mid"]: 
-║[Say: "Text"]: "Kicker talk"
-║[Cancel]: "Cancel invite"
-║[Gn: "name"]: "Change name Group"
-║[NK: "Name"]:
-║[Dead]: "Kick Blacklist"
-╚════════════════
+helpMessage ="""
+╔═══════════════════════  
+║ COMMAND FOR SELFBOT  ║
+╠═══════════════════════
+║>> Id
+║>> Mid:
+║>> All mid:
+║>> Me:
+║>> List group: "Melihat list group"
+║>> gift: "fake gift"
+║>> Group Id: "Id Me Group"
+║>> TL : "Text": "Auto status TL"
+║>> Clock : "Name Clock"
+║>> Up clock: "Up date Clock"
+║>> Name : 'text': "Name me"
+║>> MIC: "mid": "Contact share"
+║>> Reject: " invite": "Reject invite"
+║>> Massage add: "text":
+║>> Add confirmasi:
+║>> Comment set : "Text":
+║>> Comment check:
+║>> Clock: on: "Clock name on"
+║>> Clock: off: "Clock name off"
+║>> Ban: "Add blacklist"
+║>> Unban: "Dalate blacklist"
+║>> Banlist: "Check blacklist"
+║>> Contact: on/off: 
+║>> Auto join: on/off: 
+║>> Cancel Invite: 1 on/off:
+║>> Auto share: on/off:
+║>> Auto leave: on/off: 
+║>> Comment: on/off: 
+║>> Auto add: on/off: 
+║>> Auto like: on/off: 
+║>> Ban " @Tag: 
+║>> Unban " @Tag: 
+║>> Urlon]: "Open urL"
+║>> Urloff]: "Closed urL"
+║>> Url]: " Check urL room"
+║>> Ginfo]: "~÷~ data room"
+║>> Invite: "mid": 
+║>> Say: "Text": "Kicker talk"
+║>> Cancel: "Cancel invite"
+║>> Gn: "name": "Change name Group"
+║>> NK: "Name":
+║>> Dead]: "Kick Blacklist"
+║>> Cbc Broadcast Contact
+║>> Welcome message:on/off
+╚════════════════════════════════════
 """
-helpMessage2 =""" C̸O̸M̸M̸A̸N̸D̸ P̸R̸O̸T̸E̸C̸T̸
+helpMessage2 =""" 
+
+╔═══════════════════╗
+║                   ║
+║ COMMAND PROTECTED ║
+║                   ║
+╚═══════════════════╝
 ╔═══════════════════╗
 ║[Protect: on/off]:    ║
 ║[Block url: on/off]:  ║
@@ -104,9 +106,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks For Add Me By 􀰂􀰂􀰂􀰂[數]@1DaffaN3Kalani☪ইद 􀂳􏿿",
+    'message':"Thanks For Add Me By Bii",
     "lang":"JP",
-    "comment":"Auto Like By  􀰂􀰂􀰂􀰂[數]@1DaffaN3Kalani☪ইद 􀂳􏿿",
+    "comment":"Auto Like By Bii",
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
@@ -120,6 +122,7 @@ wait = {
     "pname":{},
     "pro_name":{},    
     "dblacklist":False
+    "welmsg":"WELCOME TO GROUPS ONI-CHAN",
 }
 
 wait2 = {
@@ -891,7 +894,7 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"Already。")                        
-            elif "Set:test" == msg.text:
+            elif "Set" == msg.text:
                 md = " ☞S̶e̶t̶t̶i̶n̶g̶ B̶y̶ T̶e̶a̶m̶ B̶o̶t̶ E̶d̶i̶t̶e̶d̶☜\n\n"
                 
                 if wait["contact"] == True: md+="╔═══════════════\n║[ Contact → on ]\n"       
@@ -1492,6 +1495,32 @@ def bot(op):
                     cl.sendText(msg.to, wait["spam"])
 
 #-------------------Fungsi spam finish----------------------------
+            elif msg.text in ["Welcome message:on"]:
+              if msg.from_ in admin:
+                if wait["welcomemsg"] == True:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"welcome message on\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"welcome message on\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                else:
+                    wait["welcomemsg"] = True
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"welcome message on\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"welcome message on")
+            elif msg.text in ["Welcome message:off"]:
+              if msg.from_ in admin:
+                if wait["welcomemsg"] == False:
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"welcome message off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"welcome message off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                else:
+                    wait["welcomemsg"] = False
+                    if wait["lang"] == "JP":
+                        cl.sendText(msg.to,"welcome message off\n\n"+ datetime.today().strftime('%H:%M:%S'))
+                    else:
+                        cl.sendText(msg.to,"welcome message off\n\n"+ datetime.today().strftime('%H:%M:%S'))
 #-----------------------------------------------
             elif "Spam " in msg.text:
                 if msg.from_ in admin:
@@ -1512,9 +1541,9 @@ def bot(op):
                          else:
                                cl.sendText(msg.to, "Out of range! ")
 #------------------------------------------------
-            elif "Contact bc " in msg.text:
+            elif "Cbc " in msg.text:
               # if msg.from_ in admin:
-                  bctxt = msg.text.replace("Contact bc ", "")
+                  bctxt = msg.text.replace("Cbc ", "")
                   w = cl.getAllContactIds()
                   t = 5
                   while(t):
@@ -1616,9 +1645,7 @@ def bot(op):
                 ks.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #----------------------------------------------------------
             elif msg.text in ["STAY ALL","respon","responsename"]:
-                ki.sendText(msg.to,"READY")
-                kk.sendText(msg.to,"READY")
-                ks.sendText(msg.to,"READY")		
+                cl.sendText(msg.to,"READY")		
 #----------------------------------------------------------
             elif msg.text == "cek":
                     cl.sendText(msg.to, "Set point.")
