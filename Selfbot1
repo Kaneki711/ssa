@@ -35,7 +35,7 @@ helpMessage ="""
 ║>> Mid:
 ║>> All mid:
 ║>> Me:
-║>> List group: "Melihat list group"
+║>> Glist "Melihat list group"
 ║>> gift: "fake gift"
 ║>> Group Id: "Id Me Group"
 ║>> TL : "Text": "Auto status TL"
@@ -75,6 +75,9 @@ helpMessage ="""
 ║>> Dead]: "Kick Blacklist"
 ║>> Cbc Broadcast Contact
 ║>> Welcome message:on/off
+║>> Mimic on/off
+║>> add: 
+║>> del:
 ╚════════════════════════════════════
 """
 helpMessage2 =""" 
@@ -97,8 +100,8 @@ Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Bots = [mid,Amid,kimid,ki2mid]
-administrator = ["u0f4cbccff2b03754d07d8db8707023f6"]
-admin = ["u0f4cbccff2b03754d07d8db8707023f6"]
+administrator = ["ud6eaecbc28e20abf596726afa6e72654"]
+admin = ["ud6eaecbc28e20abf596726afa6e72654"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -385,7 +388,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u0f4cbccff2b03754d07d8db8707023f6":
+                if msg.from_ == "ud6eaecbc28e20abf596726afa6e72654":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -1073,7 +1076,7 @@ def bot(op):
                     cl.sendText(msg.to,"It was renewed。")
                 else:
                     cl.sendText(msg.to,"Please turn on a name clock.。")
-            elif "Hello." in msg.text:
+            elif "Tagbot" in msg.text:
                 group = cl.getGroup(msg.to)
                 k = len(group.members)//100
                 for j in xrange(k+1):
@@ -1088,7 +1091,7 @@ def bot(op):
                     msg.text = txt
                     msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
                     cl.sendMessage(msg) 
-            elif msg.text in ["Assalamualaikum."]:
+            elif msg.text in ["Bottag"]:
 			      group = cl.getGroup(msg.to)
 			      nama = [contact.mid for contact in group.members]
 			      nm1, nm2, nm3, nm4, jml = [], [], [], [], len(nama)
@@ -1281,7 +1284,7 @@ def bot(op):
                     else:
                         pass
             elif "Sosor1" in msg.text:
-				OWN = "u0f4cbccff2b03754d07d8db8707023f6"
+				OWN = "ud6eaecbc28e20abf596726afa6e72654"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -1307,7 +1310,7 @@ def bot(op):
 									ki.kickoutFromGroup(msg.to, [target])							   
 									pass
             elif "Sosor2" in msg.text:
-				OWN = "u0f4cbccff2b03754d07d8db8707023f6"
+				OWN = "ud6eaecbc28e20abf596726afa6e72654"
 				if msg.from_ in OWN:
 					pass
 				else:
@@ -2226,7 +2229,7 @@ def bot(op):
                     pass
                     
         if op.param1 in autocancel:
-			OWN = "u0f4cbccff2b03754d07d8db8707023f6"
+			OWN = "ud6eaecbc28e20abf596726afa6e72654"
 			if op.param2 in OWN:
 				pass
 			else:
@@ -2246,7 +2249,7 @@ def bot(op):
 				json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
 #------------------------------------------------------------------------------------
         if op.type == 32:
-			OWN = "u0f4cbccff2b03754d07d8db8707023f6"
+			OWN = "ud6eaecbc28e20abf596726afa6e72654"
 			if op.param2 in OWN:
 				pass
 			else:
